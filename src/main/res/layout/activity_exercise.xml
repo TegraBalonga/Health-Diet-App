@@ -1,0 +1,326 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@android:color/black"
+        tools:context=".HomeFrag">
+
+        <RelativeLayout
+            android:id="@+id/layoutTitle"
+            android:layout_width="match_parent"
+
+            android:layout_height="87dp"
+
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="0dp"
+            android:layout_marginEnd="0dp"
+            android:background="@android:color/white">
+
+
+            <TextView
+                android:id="@+id/textView12"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="0dp"
+                android:layout_marginTop="0dp"
+                android:layout_marginEnd="0dp"
+                android:layout_marginBottom="0dp"
+                android:background="@android:color/holo_blue_dark"
+                android:text="Choose a serie of exercises"
+                android:textAlignment="center"
+                android:textColor="@android:color/black"
+                android:textSize="30sp"
+                android:textStyle="bold" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/layoutBreakfast"
+            android:layout_width="412dp"
+
+            android:layout_height="186dp"
+            android:layout_below="@+id/layoutTitle"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="-1dp"
+            android:background="@android:color/white">
+
+
+            <TextView
+                android:id="@+id/txtEx1Lay1"
+                android:layout_width="191dp"
+                android:layout_height="20dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="35dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="186dp"
+                android:layout_marginBottom="146dp"
+                android:text="SQUATS (20MIN)"
+                android:textColor="@android:color/black" />
+
+            <TextView
+                android:id="@+id/txtEx3Lay1"
+                android:layout_width="124dp"
+                android:layout_height="21dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="35dp"
+                android:layout_marginTop="105dp"
+                android:layout_marginEnd="253dp"
+                android:layout_marginBottom="60dp"
+                android:text="RUNNING (30MIN)"
+                android:textColor="@android:color/black" />
+
+            <TextView
+                android:id="@+id/txtEx4Lay1"
+                android:layout_width="175dp"
+                android:layout_height="19dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="35dp"
+                android:layout_marginTop="146dp"
+                android:layout_marginEnd="202dp"
+                android:layout_marginBottom="21dp"
+                android:text="JUMPING JACKS (10MIN)"
+                android:textColor="@android:color/black" />
+
+            <TextView
+                android:id="@+id/txtEx2Lay1"
+                android:layout_width="129dp"
+                android:layout_height="19dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="35dp"
+                android:layout_marginTop="59dp"
+                android:layout_marginEnd="248dp"
+                android:layout_marginBottom="108dp"
+                android:text="PUSH-UPS (10MIN)"
+                android:textColor="@android:color/black" />
+
+            <Button
+                android:id="@+id/btnEx1"
+                android:layout_width="80dp"
+                android:layout_height="40dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="213dp"
+                android:layout_marginTop="69dp"
+                android:layout_marginEnd="69dp"
+                android:layout_marginBottom="78dp"
+                android:background="@android:color/holo_blue_dark"
+                android:text="Choose"
+                android:textColor="@android:color/black"
+                android:textStyle="bold" />
+        </RelativeLayout>
+
+
+        <RelativeLayout
+            android:id="@+id/layoutLunch"
+            android:layout_width="412dp"
+
+            android:layout_height="186dp"
+            android:layout_below="@+id/layoutBreakfast"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="-1dp"
+            android:layout_marginTop="40dp"
+            android:layout_marginEnd="0dp"
+            android:background="@android:color/white">
+
+
+            <Button
+                android:id="@+id/btnEx2"
+                android:layout_width="80dp"
+                android:layout_height="40dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="214dp"
+                android:layout_marginTop="69dp"
+                android:layout_marginEnd="69dp"
+                android:layout_marginBottom="72dp"
+                android:background="@android:color/holo_blue_dark"
+                android:text="Choose"
+                android:textColor="@android:color/black"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/txtEx3Lay2"
+                android:layout_width="147dp"
+                android:layout_height="21dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="35dp"
+                android:layout_marginTop="102dp"
+                android:layout_marginEnd="230dp"
+                android:layout_marginBottom="63dp"
+                android:text="ABDOMINAL (10MIN)"
+                android:textColor="@android:color/black" />
+
+            <TextView
+                android:id="@+id/txtEx2Lay2"
+                android:layout_width="177dp"
+                android:layout_height="21dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="35dp"
+                android:layout_marginTop="62dp"
+                android:layout_marginEnd="200dp"
+                android:layout_marginBottom="103dp"
+                android:text="WALKING LUNGE (15MIN)"
+                android:textColor="@android:color/black" />
+
+            <TextView
+                android:id="@+id/txtEx1Lay2"
+                android:layout_width="113dp"
+                android:layout_height="23dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="35dp"
+                android:layout_marginTop="21dp"
+                android:layout_marginEnd="264dp"
+                android:layout_marginBottom="142dp"
+                android:text="CARDIO (30MIN)"
+                android:textColor="@android:color/black" />
+
+            <TextView
+                android:id="@+id/txtEx4Lay2"
+                android:layout_width="166dp"
+                android:layout_height="22dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="35dp"
+                android:layout_marginTop="140dp"
+                android:layout_marginEnd="211dp"
+                android:layout_marginBottom="24dp"
+                android:text="ROPE JUMPING (30MIN)"
+                android:textColor="@android:color/black" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/layoutDinner"
+            android:layout_width="412dp"
+
+            android:layout_height="186dp"
+            android:layout_below="@+id/layoutLunch"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="-1dp"
+            android:layout_marginTop="40dp"
+            android:layout_marginEnd="0dp"
+            android:background="@android:color/white">
+
+
+            <Button
+                android:id="@+id/btnEx3"
+                android:layout_width="79dp"
+                android:layout_height="81dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="213dp"
+                android:layout_marginTop="69dp"
+                android:layout_marginEnd="69dp"
+                android:layout_marginBottom="74dp"
+                android:background="@android:color/holo_blue_dark"
+                android:text="Choose"
+                android:textColor="@android:color/black"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/txtEx1Lay3"
+                android:layout_width="117dp"
+                android:layout_height="21dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="35dp"
+                android:layout_marginTop="21dp"
+                android:layout_marginEnd="260dp"
+                android:layout_marginBottom="144dp"
+                android:text="BURPEE (10MIN)"
+                android:textColor="@android:color/black" />
+
+            <TextView
+                android:id="@+id/txtEx2Lay3"
+                android:layout_width="131dp"
+                android:layout_height="19dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="35dp"
+                android:layout_marginTop="65dp"
+                android:layout_marginEnd="246dp"
+                android:layout_marginBottom="102dp"
+                android:text="DEADLIFT (20MIN)"
+                android:textColor="@android:color/black" />
+
+            <TextView
+                android:id="@+id/txtEx3Lay3"
+                android:layout_width="171dp"
+                android:layout_height="18dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="35dp"
+                android:layout_marginTop="102dp"
+                android:layout_marginEnd="206dp"
+                android:layout_marginBottom="66dp"
+                android:text="CARDIO (10MIN)"
+                android:textColor="@android:color/black" />
+
+            <TextView
+                android:id="@+id/txtEx4Lay3"
+                android:layout_width="133dp"
+                android:layout_height="20dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="35dp"
+                android:layout_marginTop="140dp"
+                android:layout_marginEnd="244dp"
+                android:layout_marginBottom="26dp"
+                android:text="BICYCLING (30MIN)"
+                android:textColor="@android:color/black" />
+        </RelativeLayout>
+    </RelativeLayout>
+</ScrollView>
